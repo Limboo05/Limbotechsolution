@@ -1,0 +1,770 @@
+{
+    "header": {
+        "links": {
+            "home": "Home",
+            "services": "Services",
+            "portfolio": "Portfolio",
+            "about": "About us",
+            "language": "Language",
+            "contact": "Contact",
+            "servicesPages": {
+                "design": "Design",
+                "development": "Development",
+                "marketing": "Marketing"
+            }
+        }
+    },
+    "footer": {
+        "Info": {
+            "description": "We are Limbo Tech Solutions, a digital marketing agency. Our team of experts specializes in providing customized solutions for businesses looking to grow their online presence. we have the skills and experience to help you achieve your goals. Contact us today to learn more.",
+            "button": "Contact us"
+        },
+        "QuickLinks": {
+            "title": "Quick Links",
+            "links": {
+                "home": "Home",
+                "services": "Services",
+                "portfolio": "Portfolio",
+                "about": "About us",
+                "language": "Language",
+                "contact": "Contact",
+                "servicesPages": {
+                    "design": "Design",
+                    "development": "Development",
+                    "marketing": "Marketing"
+                }
+            }
+        },
+        "Contact": {
+            "title": "Connect with us",
+            "platforms": {
+                "facebook": "Facebook",
+                "instagram": "Instagram",
+                "twitter": "Twitter",
+                "linkedin": "Linkedin",
+                "youtube": "Youtube"
+            }
+        }
+    },
+    "home": {
+        "head": {
+            "title": "Limbo Tech Solutions - Digital Agency",
+            "meta": {
+                "description": "Limbo Tech Solutions - Digital Agency"
+            }
+        },
+        "content": {
+            "LandingSection": {
+                "title": "We <BlueSpan>Design</BlueSpan>, We <RedSpan>Create</RedSpan>. We Are Digital Agency.",
+                "description": "Our creative team is focused on stunning and results driven solutions for small to medium businesses all over the world.",
+                "buttons": {
+                    "primary": "Get a quote",
+                    "secondary": "Learn More"
+                }
+            },
+            "TrustedPartners": {
+                "title": "Our Trusted Partners"
+            },
+            "AboutUs": {
+                "title": "We are <BlueSpan>Experts</BlueSpan> in our field<BlueDot>.</BlueDot>",
+                "description": "As experts, our team at Limbo Tech Solutions is committed to helping businesses achieve their online marketing goals. With years of experience and a passion for staying up-to-date with the latest industry trends and techniques, we provide customized strategies tailored to each client's unique needs. We pride ourselves on exceptional customer service and delivering measurable results that help our clients succeed. Contact us today to learn more about how we can help your business grow.",
+                "button": "Contact us"
+            },
+            "BusinessPerformance": {
+                "title": "We Can Improve <RedSpan>Your Business Performance</RedSpan> And Gain More Customers<RedDot>.</RedDot>",
+                "description": "Our goal is to help small and medium businesses achieve their maximum potential. We have a creative and experienced team who provide stunning and result-driven solutions. Our team works closely with our clients to understand their needs and provide customized services to help them grow and succeed in their industry.",
+                "cards": {
+                    "reach": {
+                        "title": "Reach More Customers",
+                        "description": "Boost your business with our expert social media, email, and SEO strategies. Contact us to learn more and take your business to new heights."
+                    },
+                    "cost": {
+                        "title": "Cost Effective",
+                        "description": "Looking for cost-effective ways to expand your customer base? Our team can help! Contact us to learn more."
+                    },
+                    "services": {
+                        "title": "Customized Services",
+                        "description": "Our team delivers customized solutions for your unique needs. From branding to digital marketing, we provide personalized expertise. Let us help bring your vision to life. Contact us today to discuss your project."
+                    },
+                    "professionals": {
+                        "title": "Trained Professionals",
+                        "description": "Our team consists of trained professionals who are experts in their respective fields, ensuring that you receive top-notch service and high-quality results."
+                    }
+                }
+            },
+            "Services": {
+                "title": "We Do <BlueSpan>Everything</BlueSpan>",
+                "description": "We work hard to provide the best quality for you and we never choose easy and faster ways to quickly break up with your project.",
+                "cards": {
+                    "programming": {
+                        "title": "Design and programming of websites and applications",
+                        "description": "This is with the highest quality in terms of design, coding and various aspects of the site, which provides our customers with modification in the future, as we take into account all the options that the customer may need so that he does not have to design the site again, which may cost money and time"
+                    },
+                    "design": {
+                        "title": "Graphic design and print",
+                        "description": "Design is part of our core personality. We develop new ideas from scratch based on available materials and information provided. We also provide customized solutions to reach our marketing goals. Through design we create the optimal communication picture that will work perfectly for the benefit of your business."
+                    },
+                    "advertising": {
+                        "title": "Advertising campaigns",
+                        "description": "Advertising campaigns improve the reach of a company's website or social media accounts, but they require a lot of experience and good planning to ensure good results."
+                    },
+                    "marketing": {
+                        "title": "E-Marketing",
+                        "description": "We market events and events through all websites and electronic platforms and ensure that the public is informed and attended"
+                    },
+                    "business": {
+                        "title": "Building a business identity",
+                        "description": "The brand identity has become the biggest strategy that generates millions of dollars for entrepreneurs, so it was necessary for the Limbo Tech Solutions team to rely on all the foundations in their work to build a harmonious brand identity for clients"
+                    },
+                    "visual": {
+                        "title": "visual production",
+                        "description": "We have a creative team in the fields of writing, directing and editing to provide you with high services, using the latest technical technologies and innovative ideas to produce works that can remain in the public's memory for as long as possible."
+                    }
+                },
+                "more": "Find out more"
+            },
+            "Testimonials": {
+                "title": "What Clients <BlueSpan>Say</BlueSpan>.",
+                "description": "At our company, we take pride in providing exceptional service to our clients. Don't just take our word for it, though – hear what our clients have to say!",
+                "comments": {
+                    "C1": {
+                        "name": "Fatima Zahra Boulmane",
+                        "profession": "Founder and CEO of AtlasTech",
+                        "comment": "Working with this agency was a fantastic experience. They were professional, responsive, and delivered high-quality work on time. I highly recommend them to anyone in need of their services."
+                    },
+                    "C2": {
+                        "name": "Mohammed Amine Cherif",
+                        "profession": "Co-Founder and CTO of TechSol",
+                        "comment": "I was extremely impressed with the level of expertise and attention to detail provided by this agency. They were able to understand our needs and deliver exactly what we were looking for. I would definitely work with them again."
+                    },
+                    "C3": {
+                        "name": "Sanae Benali",
+                        "profession": "Founder and CEO of WebDevMaroc",
+                        "comment": "I have worked with many agencies in the past, but this one stands out for their exceptional communication, creativity, and dedication. I am thrilled with the final result and would recommend them to anyone without hesitation."
+                    },
+                    "C4": {
+                        "name": "Ahmed El Bakkali",
+                        "profession": "Co-Founder and COO of MarocCloud",
+                        "comment": "The team at this agency was highly professional and knowledgeable. They went above and beyond to ensure that we were satisfied with their work, and the end result exceeded our expectations. I would highly recommend them to anyone looking for top-quality services."
+                    },
+                    "C5": {
+                        "name": "Hassan Belarbi",
+                        "profession": "Marketing Manager",
+                        "comment": "The Limbo Tech Solutions team exceeded my expectations! They are true professionals who care about their clients and take the time to understand their needs. The quality of their work is exceptional, and I highly recommend them."
+                    },
+                    "C6": {
+                        "name": "Salma El Moussaoui",
+                        "profession": "Small Business Owner",
+                        "comment": "I was impressed with the speed and efficiency of the Limbo Tech Solutions team. They were able to deliver high-quality work within a tight deadline, and the end result was exactly what I wanted. I will definitely be using their services again!"
+                    },
+                    "C7": {
+                        "name": "Kamal Sbai",
+                        "profession": "Graphic Designer",
+                        "comment": "I worked with the Limbo Tech Solutions team on a branding project, and I couldn't be happier with the results. They are great communicators, highly creative, and have a keen eye for detail. I highly recommend their services."
+                    },
+                    "C8": {
+                        "name": "Fatima Zahra El Ouazzani",
+                        "profession": "Entrepreneur",
+                        "comment": "I've worked with many agencies in the past, but the Limbo Tech Solutions team stands out for their professionalism, expertise, and attention to detail. They take the time to understand your needs and deliver high-quality work that exceeds your expectations. Highly recommended!"
+                    }
+                }
+            },
+            "Contact": {
+                "title": "Let's <RedSpan>Talk</RedSpan>?",
+                "description": "Interested in working with us? Let's talk! We would love to hear more about your project and how we can help you achieve your goals. Contact us today to schedule a consultation and start the conversation.",
+                "button": "Make an inquiry"
+            },
+            "Mailing": {
+                "title": "Receive Exclusive Content in your email",
+                "description": "Get notified about company updates, news and blog posts. We hate spam.",
+                "input": {
+                    "placeholder": "Input your email",
+                    "button": "Subscribe"
+                },
+                "label": "Cancel anytime with one click. All against SPAM!"
+            }
+        }
+    },
+    "services": {
+        "head": {
+            "title": "Limbo Tech Solutions - Services",
+            "meta": {
+                "description": "Limbo Tech Solutions - Digital Agency"
+            }
+        },
+        "content": {
+            "testing": {
+                "title": "This is the English title",
+                "description": "You are currently viewing this page in English 🚀",
+                "buttons": {
+                    "English": "English Language",
+                    "Arabic": "اللغة العربية",
+                    "French": "Langue Française"
+                }
+            }
+        },
+        "design": {
+            "head": {
+                "title": "Limbo Tech Solutions - Development Services",
+                "meta": {
+                    "description": "Limbo Tech Solutions - Digital Agency"
+                }
+            },
+            "content": {
+                "Card": {
+                    "title": "Design for people",
+                    "description": "Our creative design solutions are for people, not for machines. Yet made by people and machines.",
+                    "button": "Read more",
+                    "notice": "No business has ever succeeded with poor design solutions. To us, design is the nucleus that holds business together. We’re always willing to help you build it."
+                },
+                "Services": {
+                    "branding": {
+                        "title": "Branding",
+                        "description": "Establish your unique identity and stand out."
+                    },
+                    "logoDesign": {
+                        "title": "Logo Design",
+                        "description": "Make a lasting impression with a custom logo."
+                    },
+                    "uiUx": {
+                        "title": "UI/UX",
+                        "description": "Enhance user experience and make a statement."
+                    },
+                    "socialMedia": {
+                        "title": "Social Media",
+                        "description": "Boost your online presence and engage followers."
+                    },
+                    "visualProduction": {
+                        "title": "Visual Production",
+                        "description": "Communicate your message visually and effectively."
+                    },
+                    "packaging": {
+                        "title": "Packaging",
+                        "description": "Elevate your product with eye-catching packaging."
+                    }
+                },
+                "Notice": "No business has ever succeeded with poor design solutions. To us, design is the nucleus that holds business together. We’re always willing to help you build it.",
+                "Secret": {
+                    "title": "What's our secret?",
+                    "cards": {
+                        "TimeLessDesign": {
+                            "title": "TimeLess Design",
+                            "description": "Run your digital product for years without worries about being outdated. Our design is ahead of time."
+                        },
+                        "BusinessOrientedSolutions": {
+                            "title": "Business-oriented Solutions",
+                            "description": "We help our clients succeed concentrating our efforts on business goals and striving to achieve them no matter what."
+                        },
+                        "DeepResearch": {
+                            "title": "Deep research",
+                            "description": "We do our own research into your business area and market. Once we know all there is to know, we can give you exactly what your business needs."
+                        },
+                        "ReliablePartner": {
+                            "title": "Reliable partner",
+                            "description": "Our relationship with you is 100% transparent and built on trust. We believe friendliness is key to any successful long-term partnership."
+                        },
+                        "OutOfTheBoxDesign": {
+                            "title": "Out-of-the-box design",
+                            "description": "What we offer are custom-built solutions. We love experimenting and breaking rules! No boring old templates here."
+                        },
+                        "IncreasingValue": {
+                            "title": "Increasing value",
+                            "description": "Do you want to increase the value of your product? How about more customer loyalty and engagement? We know you do, so we create design strategies to do just that!"
+                        }
+                    }
+                },
+                "WorkingProcess": {
+                    "title": "Working Process",
+                    "process": {
+                        "0": {
+                            "title": "Immersion",
+                            "description": "Going deep into client’s business to understand its core sense, goals and challenges to build partnership."
+                        },
+                        "1": {
+                            "title": "Ideation",
+                            "description": "Creating first concepts of a future product and shaping up the direction."
+                        },
+                        "2": {
+                            "title": "Wireframing",
+                            "description": "Building the foundation, structure and core elements of a digital product."
+                        },
+                        "3": {
+                            "title": "Visual Design",
+                            "description": "Adding colors, illustrations and shapes to create visual language that resonates with customers."
+                        },
+                        "4": {
+                            "title": "Handoff & Support",
+                            "description": "Sending all finalised deliverables and providing further support."
+                        }
+                    }
+                },
+                "Cases": {
+                    "title": "Some cases we are proud of",
+                    "description": "Check out these cases to see how we work and what we achieve. A picture speaks a thousand words!",
+                    "projects": {
+                        "netgain": "Netgain trusted us to rebrand their whole huge website from scratch. The company helps accountants automate their processes and workflows in NetSuite so they can do their work more efficiently. The reviews on the new website have been outstanding.",
+                        "nexus": "Imagine a digital business card - it’s not in the future. Nexus is real and made to simplify lives by gathering all social media and other links in one app. We’ve been there to make a website, mobile app and promotion materials.",
+                        "slit": "We were lucky to work with Slit - a startup aiming to create a blockchain art gallery. Our creatives went through several stages of ideation and concepting before we found an adorable way to represent this business.",
+                        "bonsai": "For an ambitious Bonsai, a SaaS product created to automate freelance work, we've tailored a minimalist and trendy website that accelerates freelancers' work with accounting, client management, and more."
+                    }
+                },
+                "WhyUs": {
+                    "title": "Why us?",
+                    "cards": {
+                        "BusinessCenteredApproach": {
+                            "title": "Business-centered approach",
+                            "description": "Everything we do is geared toward your strategic goals. Essentially, our designs are an effective way to make your business successful."
+                        },
+                        "StrongMarketingTools": {
+                            "title": "Strong marketing tools",
+                            "description": "Marketing and design are inextricably linked. We know just how to make them complement each other."
+                        },
+                        "CloseCommunication": {
+                            "title": "Close communication",
+                            "description": "We have found that keeping in touch with our clients accounts for 60% of a given project’s success."
+                        },
+                        "MeetingTheDeadlines": {
+                            "title": "Meeting the deadlines",
+                            "description": "We hate falling behind on a project just as much as our clients. That’s why we never do it."
+                        },
+                        "FutureProofResults": {
+                            "title": "Future-proof results",
+                            "description": "Fads are fine, but some things are timeless. We make every effort to stay on the cutting edge of design."
+                        },
+                        "IncreasingValue": {
+                            "title": "Exceeding Expectations",
+                            "description": "You know why we really care about your success? Because it motivates us like nothing else! So it’s a win-win situation."
+                        }
+                    }
+                },
+                "FAQ": {
+                    "title": "FAQ",
+                    "questions": {
+                        "0": {
+                            "question": "How long does it take to get started?",
+                            "answer": "Our turnaround is lightning-fast. Just one week from signing off and we’re there with the kick-off meeting to get it rolling."
+                        },
+                        "1": {
+                            "question": "What is your typical working process?",
+                            "answer": "It all starts with grabbing a cup of coffee, chilling with mates, and some quality time at the PlayStation (just kidding!). We always start a project with analysis, learning the requirements, and making estimates that will be shared in the price proposal. Then it’s off to signing off, kicking off, and getting your business to the next level with a pinch of our design magic."
+                        },
+                        "2": {
+                            "question": "Do you work on a fixed-price basis or time and material?",
+                            "answer": "Flexibility is the key of success in this crazy world, so we try to suggest an appropriate solution for each specific case we deal with. The more clear and detailed the requirements are, the more accurate will our estimates be. This is the closest we get to the fixed-price model."
+                        },
+                        "3": {
+                            "question": "How do you usually start new collaborations?",
+                            "answer": "Each new engagement starts with an introduction call and filling out the design/branding brief. If you have a cool project in mind, feel free to get in touch at hello@Limbo Tech Solutions.co"
+                        },
+                        "4": {
+                            "question": "Do you guys work with big companies only? We’re an early-stage startup.",
+                            "answer": "We’re all for building a borderless world, so we are open to working with any project we come across. By the way, we do believe in startups, and one of those we helped develop from scratch has been sold to https://entercom.com/"
+                        },
+                        "5": {
+                            "question": "How long it will take to get an estimate from you?",
+                            "answer": "We hate to keep you waiting. Setting up a team, making preliminary research and analysis, and getting back to you with the contract will take up to 24 hours from the moment we learn what’s needed. Efficiency is one of Outcrowd’s key values."
+                        },
+                        "6": {
+                            "question": "Do you have a minimum engagement?",
+                            "answer": "We set no entry thresholds for people who want to work with us. But we still believe that a product that needs to be designed can’t be made within a couple of days. After all, we need some time to research, analyze and come up with a strategy. So we’ve set a minimum project duration as 30 hours and we’re waiting for you!"
+                        },
+                        "7": {
+                            "question": "What’s the average project duration?",
+                            "answer": "Our team works full-time on every project, so the overall duration will highly depend on the initial estimate. On average, our projects last from 2 weeks to 5 months."
+                        },
+                        "8": {
+                            "question": "Can we start the design without wireframes?",
+                            "answer": "Wireframes help to build UX without distractions. The wireframe is an essential part of the design process and we would not recommend eliminating it. Having everything polished at the wireframing stage, we can avoid many amendments and revisions at the design stage, which saves both time and money."
+                        },
+                        "9": {
+                            "question": "What templates does Outcrowd use to create design?",
+                            "answer": "We don’t use pre-built templates or kits because there’s just no soul in them. We’re committed to building fully customized and product-based solutions that will meet the expectations of the target users. Each pixel and line is designed with love and passion by our creative minds."
+                        },
+                        "10": {
+                            "question": "Where should I start with my business if I have an idea?",
+                            "answer": "Hey, you’ve come to the right place! Please get in touch and we’ll help you with the ideation, design, and development. Full cycle on us, no hassle for you. Easy, right?"
+                        }
+                    }
+                },
+                "Banner": {
+                    "0": {
+                        "first": "Creative Design",
+                        "second": "attracts people."
+                    },
+                    "1": {
+                        "first": "Smart UX makes",
+                        "second": "them stay."
+                    },
+                    "2": {
+                        "first": "At Limbo Tech Solutions we",
+                        "second": "deliver both."
+                    },
+                    "3": {
+                        "first": "For you, for people,",
+                        "second": "for business."
+                    }
+                }
+            }
+        },
+        "development": {
+            "head": {
+                "title": "Limbo Tech Solutions - Development Services",
+                "meta": {
+                    "description": "Limbo Tech Solutions - Digital Agency"
+                }
+            },
+            "content": {
+                "Title": {
+                    "title": "Development",
+                    "description": "Making your product come alive"
+                },
+                "Potential": {
+                    "title": "Unleashing Your Potential",
+                    "description": "Okay, so your digital product is designed. What’s next? Next comes development. We know this is where things can go awry if it’s not done the right way. Not that it ever happens to us, mind you. We don’t compromise, bringing it all together in a simple solution."
+                },
+                "Develop": {
+                    "title": "Develop",
+                    "description": "We’ve had years of experience and developed dozens of projects. So we know what to do to achieve results that will make our clients proud."
+                },
+                "TechnologyStack": {
+                    "title": "Technology Stack",
+                    "description": "Building and transforming digital products with a range of technologies.",
+                    "button": "Read More"
+                },
+                "Cases": {
+                    "title": "Some cases we are proud of",
+                    "description": "Check out these cases to see how we work and what we achieve. A picture speaks a thousand words!",
+                    "projects": {
+                        "netgain": "Netgain trusted us to rebrand their whole huge website from scratch. The company helps accountants automate their processes and workflows in NetSuite so they can do their work more efficiently. The reviews on the new website have been outstanding.",
+                        "nexus": "Imagine a digital business card - it’s not in the future. Nexus is real and made to simplify lives by gathering all social media and other links in one app. We’ve been there to make a website, mobile app and promotion materials.",
+                        "slit": "We were lucky to work with Slit - a startup aiming to create a blockchain art gallery. Our creatives went through several stages of ideation and concepting before we found an adorable way to represent this business.",
+                        "bonsai": "For an ambitious Bonsai, a SaaS product created to automate freelance work, we've tailored a minimalist and trendy website that accelerates freelancers' work with accounting, client management, and more."
+                    }
+                },
+                "WhyUs": {
+                    "title": "Why us?",
+                    "cards": {
+                        "BusinessCenteredApproach": {
+                            "title": "Business-centered approach",
+                            "description": "Everything we do is geared toward your strategic goals. Essentially, our designs are an effective way to make your business successful."
+                        },
+                        "StrongMarketingTools": {
+                            "title": "Strong marketing tools",
+                            "description": "Marketing and design are inextricably linked. We know just how to make them complement each other."
+                        },
+                        "CloseCommunication": {
+                            "title": "Close communication",
+                            "description": "We have found that keeping in touch with our clients accounts for 60% of a given project’s success."
+                        },
+                        "MeetingTheDeadlines": {
+                            "title": "Meeting the deadlines",
+                            "description": "We hate falling behind on a project just as much as our clients. That’s why we never do it."
+                        },
+                        "FutureProofResults": {
+                            "title": "Future-proof results",
+                            "description": "Fads are fine, but some things are timeless. We make every effort to stay on the cutting edge of design."
+                        },
+                        "IncreasingValue": {
+                            "title": "Exceeding Expectations",
+                            "description": "You know why we really care about your success? Because it motivates us like nothing else! So it’s a win-win situation."
+                        }
+                    }
+                },
+                "FAQ": {
+                    "title": "FAQ",
+                    "questions": {
+                        "0": {
+                            "question": "How long does it take to get started?",
+                            "answer": "Our turnaround is lightning-fast. Just one week from signing off and we’re there with the kick-off meeting to get it rolling."
+                        },
+                        "1": {
+                            "question": "What is your typical working process?",
+                            "answer": "It all starts with grabbing a cup of coffee, chilling with mates, and some quality time at the PlayStation (just kidding!). We always start a project with analysis, learning the requirements, and making estimates that will be shared in the price proposal. Then it’s off to signing off, kicking off, and getting your business to the next level with a pinch of our design magic."
+                        },
+                        "2": {
+                            "question": "Do you work on a fixed-price basis or time and material?",
+                            "answer": "Flexibility is the key of success in this crazy world, so we try to suggest an appropriate solution for each specific case we deal with. The more clear and detailed the requirements are, the more accurate will our estimates be. This is the closest we get to the fixed-price model."
+                        },
+                        "3": {
+                            "question": "How do you usually start new collaborations?",
+                            "answer": "Each new engagement starts with an introduction call and filling out the design/branding brief. If you have a cool project in mind, feel free to get in touch at hello@Limbo Tech Solutions.co"
+                        },
+                        "4": {
+                            "question": "Do you guys work with big companies only? We’re an early-stage startup.",
+                            "answer": "We’re all for building a borderless world, so we are open to working with any project we come across. By the way, we do believe in startups, and one of those we helped develop from scratch has been sold to https://entercom.com/"
+                        },
+                        "5": {
+                            "question": "How long it will take to get an estimate from you?",
+                            "answer": "We hate to keep you waiting. Setting up a team, making preliminary research and analysis, and getting back to you with the contract will take up to 24 hours from the moment we learn what’s needed. Efficiency is one of Outcrowd’s key values."
+                        },
+                        "6": {
+                            "question": "Do you have a minimum engagement?",
+                            "answer": "We set no entry thresholds for people who want to work with us. But we still believe that a product that needs to be designed can’t be made within a couple of days. After all, we need some time to research, analyze and come up with a strategy. So we’ve set a minimum project duration as 30 hours and we’re waiting for you!"
+                        },
+                        "7": {
+                            "question": "What’s the average project duration?",
+                            "answer": "Our team works full-time on every project, so the overall duration will highly depend on the initial estimate. On average, our projects last from 2 weeks to 5 months."
+                        },
+                        "8": {
+                            "question": "Can we start the design without wireframes?",
+                            "answer": "Wireframes help to build UX without distractions. The wireframe is an essential part of the design process and we would not recommend eliminating it. Having everything polished at the wireframing stage, we can avoid many amendments and revisions at the design stage, which saves both time and money."
+                        },
+                        "9": {
+                            "question": "What templates does Outcrowd use to create design?",
+                            "answer": "We don’t use pre-built templates or kits because there’s just no soul in them. We’re committed to building fully customized and product-based solutions that will meet the expectations of the target users. Each pixel and line is designed with love and passion by our creative minds."
+                        },
+                        "10": {
+                            "question": "Where should I start with my business if I have an idea?",
+                            "answer": "Hey, you’ve come to the right place! Please get in touch and we’ll help you with the ideation, design, and development. Full cycle on us, no hassle for you. Easy, right?"
+                        }
+                    }
+                }
+            }
+        },
+        "marketing": {
+            "head": {
+                "title": "Limbo Tech Solutions - Marketing Services",
+                "meta": {
+                    "description": "Limbo Tech Solutions - Digital Agency"
+                }
+            },
+            "content": {
+                "Card": {
+                    "title": "Digital Marketing",
+                    "description": "Make your business grow and solve your problem.",
+                    "button": "Read more",
+                    "notice": "Marketing has always been about relationships. About trust and personalised service. And about human connection. In a world that feels unpredictable and uncertain, and where you have more conversations with AI than with people, Limbo Tech Solutions is a shift towards human-driven marketing."
+                },
+                "StandOut": {
+                    "title": "What makes us <RedSpan>Stand Out</RedSpan>?",
+                    "description": "Our services help you create digital products and solve your problems objectively, strategy, technology and analysis.Our service also has a high appeal because it has a beautiful color combination and a minimalist concept.",
+                    "cards": {
+                        "0": {
+                            "title": "+20",
+                            "description": "Active Engagements"
+                        },
+                        "1": {
+                            "title": "+100",
+                            "description": "Happy Clients"
+                        },
+                        "2": {
+                            "title": "+10",
+                            "description": "Trusted Companies"
+                        }
+                    }
+                },
+                "BestServices": {
+                    "title": "We Just Offer The <BlueSpan>Best Services</BlueSpan>.",
+                    "description": "Our services help you create digital products and solve your problems objectively, strategy, technology and analysis. Our service also has a high appeal because it has a beautiful color combination and a minimalist concept",
+                    "cards": {
+                        "0": {
+                            "title": "Consultant Business Strategy",
+                            "description": "Looking to improve your business strategy? Our consultants can help. With years of experience in the industry, we offer expert advice and tailored solutions to help you reach your goals."
+                        },
+                        "1": {
+                            "title": "Google Ads Management",
+                            "description": "It includes setting up ads, selecting keywords, targeting specific audiences, monitoring performance, and adjusting strategies to maximize ROI. A Google Ads Management agency can help businesses create effective ad campaigns and achieve their marketing goals."
+                        },
+                        "2": {
+                            "title": "Research & Discovery",
+                            "description": "Our team utilizes a variety of research methods to uncover key findings and identify opportunities for growth. By leveraging our expertise in data analysis and market research, we can help you make informed decisions and stay ahead of the competition."
+                        },
+                        "3": {
+                            "title": "Social Media Marketing",
+                            "description": "Looking to promote your business on social media? Our team can help! We specialize in developing and executing customized social media strategies that are tailored to your specific needs and goals."
+                        }
+                    }
+                },
+                "WhyUs": {
+                    "title": "Why us?",
+                    "cards": {
+                        "BusinessCenteredApproach": {
+                            "title": "Business-centered approach",
+                            "description": "Everything we do is geared toward your strategic goals. Essentially, our designs are an effective way to make your business successful."
+                        },
+                        "StrongMarketingTools": {
+                            "title": "Strong marketing tools",
+                            "description": "Marketing and design are inextricably linked. We know just how to make them complement each other."
+                        },
+                        "CloseCommunication": {
+                            "title": "Close communication",
+                            "description": "We have found that keeping in touch with our clients accounts for 60% of a given project’s success."
+                        },
+                        "MeetingTheDeadlines": {
+                            "title": "Meeting the deadlines",
+                            "description": "We hate falling behind on a project just as much as our clients. That’s why we never do it."
+                        },
+                        "FutureProofResults": {
+                            "title": "Future-proof results",
+                            "description": "Fads are fine, but some things are timeless. We make every effort to stay on the cutting edge of design."
+                        },
+                        "IncreasingValue": {
+                            "title": "Exceeding Expectations",
+                            "description": "You know why we really care about your success? Because it motivates us like nothing else! So it’s a win-win situation."
+                        }
+                    }
+                },
+                "FAQ": {
+                    "title": "FAQ",
+                    "questions": {
+                        "0": {
+                            "question": "How long does it take to get started?",
+                            "answer": "Our turnaround is lightning-fast. Just one week from signing off and we’re there with the kick-off meeting to get it rolling."
+                        },
+                        "1": {
+                            "question": "What is your typical working process?",
+                            "answer": "It all starts with grabbing a cup of coffee, chilling with mates, and some quality time at the PlayStation (just kidding!). We always start a project with analysis, learning the requirements, and making estimates that will be shared in the price proposal. Then it’s off to signing off, kicking off, and getting your business to the next level with a pinch of our design magic."
+                        },
+                        "2": {
+                            "question": "Do you work on a fixed-price basis or time and material?",
+                            "answer": "Flexibility is the key of success in this crazy world, so we try to suggest an appropriate solution for each specific case we deal with. The more clear and detailed the requirements are, the more accurate will our estimates be. This is the closest we get to the fixed-price model."
+                        },
+                        "3": {
+                            "question": "How do you usually start new collaborations?",
+                            "answer": "Each new engagement starts with an introduction call and filling out the design/branding brief. If you have a cool project in mind, feel free to get in touch at hello@Limbo Tech Solutions.co"
+                        },
+                        "4": {
+                            "question": "Do you guys work with big companies only? We’re an early-stage startup.",
+                            "answer": "We’re all for building a borderless world, so we are open to working with any project we come across. By the way, we do believe in startups, and one of those we helped develop from scratch has been sold to https://entercom.com/"
+                        },
+                        "5": {
+                            "question": "How long it will take to get an estimate from you?",
+                            "answer": "We hate to keep you waiting. Setting up a team, making preliminary research and analysis, and getting back to you with the contract will take up to 24 hours from the moment we learn what’s needed. Efficiency is one of Outcrowd’s key values."
+                        },
+                        "6": {
+                            "question": "Do you have a minimum engagement?",
+                            "answer": "We set no entry thresholds for people who want to work with us. But we still believe that a product that needs to be designed can’t be made within a couple of days. After all, we need some time to research, analyze and come up with a strategy. So we’ve set a minimum project duration as 30 hours and we’re waiting for you!"
+                        },
+                        "7": {
+                            "question": "What’s the average project duration?",
+                            "answer": "Our team works full-time on every project, so the overall duration will highly depend on the initial estimate. On average, our projects last from 2 weeks to 5 months."
+                        },
+                        "8": {
+                            "question": "Can we start the design without wireframes?",
+                            "answer": "Wireframes help to build UX without distractions. The wireframe is an essential part of the design process and we would not recommend eliminating it. Having everything polished at the wireframing stage, we can avoid many amendments and revisions at the design stage, which saves both time and money."
+                        },
+                        "9": {
+                            "question": "What templates does Outcrowd use to create design?",
+                            "answer": "We don’t use pre-built templates or kits because there’s just no soul in them. We’re committed to building fully customized and product-based solutions that will meet the expectations of the target users. Each pixel and line is designed with love and passion by our creative minds."
+                        },
+                        "10": {
+                            "question": "Where should I start with my business if I have an idea?",
+                            "answer": "Hey, you’ve come to the right place! Please get in touch and we’ll help you with the ideation, design, and development. Full cycle on us, no hassle for you. Easy, right?"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "portfolio": {
+        "head": {
+            "title": "Limbo Tech Solutions - Portfolio",
+            "meta": {
+                "description": "Looking for a digital agency that delivers results? Check out Limbo Tech Solutions's portfolio page to see how we've helped businesses like yours grow through web design, branding, digital marketing, and more. Our team of experts crafts custom solutions that engage your audience and drive conversions. Browse our portfolio today to see how we can help take your online presence to the next level."
+            }
+        },
+        "content": {
+            "MainCard": {
+                "Title": "Portfolio",
+                "Description": "Partner with us to elevate your business in the Digital World",
+                "Button": "Discover"
+            },
+            "Notice": "Welcome to Limbo Tech Solutions, a digital agency that helps businesses thrive in the digital age. We are a team of skilled professionals with a passion for creativity and innovation. Our goal is to provide you with exceptional digital solutions that drive results and help your business grow. Let us help you take your online presence to the next level.",
+            "Gallery": {
+                "Design": "Design",
+                "Development": "Development",
+                "Marketing": "Marketing"
+            }
+        }
+    },
+    "about": {
+        "head": {
+            "title": "About Limbo Tech Solutions",
+            "meta": {
+                "description": "As experts, our team at Limbo Tech Solutions is committed to helping businesses achieve their online marketing goals. With years of experience and a passion for staying up-to-date with the latest industry trends and techniques, we provide customized strategies tailored to each client's unique needs. We pride ourselves on exceptional customer service and delivering measurable results that help our clients succeed. Contact us today to learn more about how we can help your business grow."
+            }
+        },
+        "content": {
+            "MainCard": {
+                "Title": "We are Limbo Tech Solutions.",
+                "Description": "Partner with us to elevate your business in the Digital World",
+                "Button": "Read More"
+            },
+            "Notice": "Welcome to Limbo Tech Solutions, a digital agency that helps businesses thrive in the digital age. We are a team of skilled professionals with a passion for creativity and innovation. Our goal is to provide you with exceptional digital solutions that drive results and help your business grow. Let us help you take your online presence to the next level.",
+            "Team": {
+                "Title": "The <BlueSpan>Limbo Tech Solutions</BlueSpan> Team<BlueDot>.</BlueDot>",
+                "FirstSubtitle": "Who are we?",
+                "FirstDescription": "We are a team of designers, developers, data managers, marketers and talented individuals. Our big concern is the work we create and have fun doing.",
+                "SecondSubtitle": "What is our mission?",
+                "SecondDescription": "It's simple ! Your work is our mission. We work hard every day to design innovative solutions that help you collect more, achieve more, and grow your amazing business around the world. We believe that what we do can help change the world."
+            }
+        }
+    },
+    "contact": {
+        "head": {
+            "title": "Hey👋🏻, can't wait to chat about your project?",
+            "meta": {
+              "description": ""
+            }
+          },
+        "Alternatives": {
+            "Title": "Hey👋🏻, can't wait to chat about your project?",
+            "Description": "No worries! You can hit us up on WhatsApp 📱 or schedule a meeting on Calendly 🗓️ with just a few clicks. It's that easy! But if you'd rather fill out the form, that's cool too. We're here to help you bring your ideas to life! 😊",
+            "Cards": {
+                "WhatsApp": {
+                    "Title": "Need quick assistance?",
+                    "Description": "We're just a message away! Click the button below to get in touch with our team via WhatsApp.",
+                    "Button": "Message Us Now"
+                },
+                "Calendly": {
+                    "Title": "Schedule a Meeting",
+                    "Description": "Want to discuss your project in detail? Click the button below to schedule a meeting with our team on Calendly.",
+                    "Button": "Schedule Now"
+                }
+            }
+        },
+        "GetInTouch": {
+            "Title": "We'd love to hear from you, Let's get in touch👇🏻",
+            "Description": "We're here to help you bring your ideas to life! 😊",
+            "Form": {
+                "Name": {
+                    "Label": "Full Name",
+                    "Placeholder": "Enter your name"
+                },
+                "Number": {
+                    "Label": "Phone Number",
+                    "Placeholder": "Enter your Phone Number"
+                },
+                "Email": {
+                    "Label": "Your Email",
+                    "Placeholder": "Enter your email"
+                },
+                "Interest": {
+                    "Label": "Interest",
+                    "Placeholder": "Choose an option",
+                    "Options": {
+                        "Design": "Design",
+                        "Development": "Development",
+                        "Marketing": "Marketing",
+                        "Other": "Other"
+                    }
+                },
+                "Budget": {
+                    "Label": "Project Budget",
+                    "Placeholder": "Select your budget",
+                    "Options": {
+                        "-1000": "Under $1000",
+                        "1000-5000": "$1000 to $5000",
+                        "5000-10000": "$5000 to $10000",
+                        "+10000": "+$10000"
+                    }
+                },
+                "Message": {
+                    "Label": "Message",
+                    "Placeholder": "Let us know more about your project"
+                },
+                "Button": "Get in touch"
+            }
+        }
+    }
+}

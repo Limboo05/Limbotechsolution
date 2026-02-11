@@ -1,0 +1,339 @@
+.ScrollComponent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: auto;
+    // right: 0;
+    width: 100%;
+    height: 0.25rem;
+    background: $G5;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    &__Indicator {
+        background: $G3;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.NavBar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    // max-height: 10vh;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    @include GlobalPadding();
+    padding: 5vh 10vw;
+    z-index: 1000;
+    // transition: all 300ms ease;
+    &.Fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 0rem 10vw;
+        backdrop-filter: blur(1rem) brightness(250%);
+        background-color: rgba(#fff, 75%);
+    }
+    .Logo {
+        @include Logo();
+    }
+    .Navigation {
+        min-width: 100px;
+        height: auto;
+        background: transparent;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1rem;
+        .NavButton {
+            background-color: transparent;
+            color: rgba($C2, 0.75);
+            font-family: inherit;
+            text-transform: none;
+            border-radius: 1rem;
+            padding: 0.5rem 1rem;
+            &:hover {
+                background-color: rgba($C2, 0.05);
+            }
+            &:active {
+                background-color: transparent;
+                color: rgba($C2, 0.5);
+            }
+        }
+        .NavButton.Active {
+            color: var(--C4);
+            font-weight: bold;
+        }
+        .ActionButton {
+            background-color: rgba($C4, 0.15);
+            color: var(--C4);
+            font-family: inherit;
+            text-transform: none;
+            box-shadow: none;
+            border-radius: 1rem;
+            padding: 0.5rem 1rem;
+        }
+        .SelectSection {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            .NavButton {
+                width: 100%;
+            }
+            .ToggleGroup {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                width: 100%;
+                height: auto;
+                top: 100%;
+                background: #F2F2F2;
+                border-radius: 1rem;
+                z-index: 1000;
+                .ToggleButton {
+                    background-color: transparent;
+                    color: rgba($C2, 0.75);
+                    font-family: inherit;
+                    text-transform: none;
+                    border-radius: 1rem;
+                    padding: 0.5rem 1rem;
+                    width: 100%;
+                    display: flex;
+                    gap: 0.5rem;
+                    text-align: start;
+                    justify-content: flex-start;
+                    svg {
+                        height: 15px;
+                        width: auto;
+                    }
+                    &:hover {
+                        background-color: rgba($C2, 0.05);
+                    }
+                    &:active {
+                        background-color: transparent;
+                        color: rgba($C2, 0.5);
+                    }
+                    &.Active {
+                        background: $G4;
+                        color: rgba($C5, 0.75);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.NavBar.Mobile {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include GlobalPadding();
+    padding: 2.5vh 10vw;
+    .Logo {
+        @include Logo();
+    }
+    .MenuButton {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        min-width: 50%;
+        height: auto;
+        // background: $G3;
+    }
+}
+
+.MenuWrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    overflow: hidden;
+    .MobileMenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background: $G3;
+        z-index: 1000;
+        @include GlobalPadding();
+        padding-top: 5%;
+        padding-bottom: 5%;
+        gap: 2rem;
+        user-select: none;
+        .Main {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            // background: $G5;
+            border-radius: 1rem;
+            .Logo {
+                @include Logo();
+            }
+        }
+        .ListView {
+            width: 100%;
+            height: 100%;
+            border-radius: 1rem;
+            background: transparent;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            .PageButton {
+                width: 100%;
+                border-color: $C3;
+                outline-color: $C3;
+                border-radius: 0.5rem;
+                border: 1px solid rgba(#fff, 25%);
+                // background: $G5;
+                color: $C5;
+                font-size: 1rem;
+                font-weight: bold;
+                width: 100%;
+                height: 100%;
+                border-radius: 1rem;
+                z-index: 0;
+                transition: all 100ms ease;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .PageButton.Active {
+                background: $G1;
+                box-shadow: 0px 1rem 30px 10px rgba(#000, 25%);
+                // border: none;
+            }
+            .LocaleButton {
+                width: 100%;
+                border-color: $C3;
+                outline-color: $C3;
+                border-radius: 0.5rem;
+                background: transparent;
+                border: 1px solid rgba(#fff, 25%);
+                color: $C5;
+                font-size: 1rem;
+                font-weight: bold;
+                width: 100%;
+                height: 100%;
+                border-radius: 1rem;
+                z-index: 0;
+                transition: all 100ms ease;
+                flex-direction: column;
+                gap: 0.5rem;
+                svg {
+                    max-width: 1.5rem;
+                }
+            }
+            .LocaleButton.Active {
+                background: $G1;
+            }
+        }
+        .Items {
+            width: 100%;
+            height: 1100%;
+            border-radius: 1rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, auto);
+            gap: 0;
+            margin-inline: auto;
+            position: relative;
+            .Item {
+                border-radius: 1rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: $C5;
+                z-index: 1000;
+                svg {
+                    margin-bottom: 1rem;
+                    pointer-events: none;
+                }
+            }
+            .Current {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: $G1;
+                display: block;
+                width: 50%;
+                height: calc(100% / 3);
+                border-radius: 1rem;
+                z-index: 0;
+                transition: all 100ms ease;
+                box-shadow: 0px 1rem 30px 10px rgba(#000, 25%);
+                // filter: brightness(0.25);
+            }
+        }
+    }
+}
+
+.NavBar[data-theme="dark"] {
+    &.Fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 0rem 10vw;
+        backdrop-filter: blur(1rem) brightness(50%);
+        background-color: rgba(#000, 75%);
+    }
+    .Navigation {
+        .NavButton {
+            color: rgba(#fff, 75%);
+            &.Active {
+                color: rgba($C3, 75%);
+            }
+        }
+        .ActionButton {
+            background-color: rgba($C3, 0.15);
+            color: var(--C3);
+        }
+        .SelectSection {
+            .NavButton {
+                width: 100%;
+            }
+            .ToggleGroup {
+                background: $C1;
+                .ToggleButton {
+                    background-color: transparent;
+                    color: rgba($C5, 0.75);
+                    &:hover {
+                        background-color: rgba($C5, 0.05);
+                    }
+                    &:active {
+                        background-color: transparent;
+                        color: rgba($C5, 0.5);
+                    }
+                    &.Active {
+                        background: $G3;
+                        color: rgba($C5, 0.75);
+                    }
+                }
+            }
+        }
+    }
+}

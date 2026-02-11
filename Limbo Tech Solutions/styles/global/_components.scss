@@ -1,0 +1,48 @@
+//  Button Styles
+@import "./components/buttons";
+// Qualities Grid - Container with a title and a Grid of icons with some text.
+@import "./components/qualities";
+// Selected Projects Section 
+@import "./components/cases";
+// Let's Talk Section Component - Reusable
+@import "./components/LetsTalk";
+// Frequently Asked Questions
+@import "./components/FAQ";
+// Main Card - 3D Hover Effect
+@import "./components/MainCard";
+// Date Time Picker
+@import "./components/DatePicker";
+// Logo
+@import "./components/Logo";
+// 
+// 
+// Scroll Indicator
+@import "./components/ScrollIndicator";
+// 
+// 
+// Background
+@import "./components/Background";
+// 
+// 
+@mixin BigCard() {
+    width: 100%;
+    height: 100%;
+}
+
+.Slogan {
+    position: relative;
+    background-color: rgba(#000, 5%);
+    padding: 2rem 2rem;
+    color: rgba(#000, 50%);
+    width: 80%;
+    border-radius: 2rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    &.Dark {
+        color: rgba(#fff, 50%);
+        background-color: rgba(#fff, 5%);
+    }
+    &.Wide {
+        width: 80%;
+    }
+}

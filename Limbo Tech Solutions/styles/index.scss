@@ -1,0 +1,23 @@
+// Global Properties
+@import "./global/colors";
+@import "./global/global";
+@import "./global/scrollBar";
+@import "./global/loader";
+@import "./global/spanHighlight";
+@import "./global/colorDot";
+// 
+// 
+//Layout
+@import './layout/header';
+@import './layout/footer';
+// 
+// 
+// Pages
+@include Background();
+@import "./pages/Home/home";
+@import "./pages/Services/services";
+@import "./pages/Portfolio/portfolio";
+@import "./pages/Contact/contact";
+@import "./pages/About/about";
+@import "./pages/Experiments/_Experiments";
+// Loading Style

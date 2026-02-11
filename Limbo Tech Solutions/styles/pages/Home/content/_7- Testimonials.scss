@@ -1,0 +1,191 @@
+@use 'sass:color';
+.Testimonials {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    .Title {
+        @include GlobalPadding;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+        margin-bottom: 5rem;
+        color: $C1;
+        z-index: 2;
+        h1 {
+            font-size: 2em;
+            @media (max-width: 790px) {
+                font-size: 1.5em;
+            }
+        }
+        p {
+            font-size: 1em;
+            color: $C2;
+            width: 80%;
+            @media (max-width: 790px) {
+                font-size: 0.85em;
+                width: 100%;
+            }
+        }
+    }
+    .CommentsDisplay {
+        position: relative;
+        top: 0;
+        width: 100%;
+        // left: 50%;
+        // transform: translateX(-50%);
+        z-index: 100;
+        @media (max-width: 767px) {
+            .slick-list {
+                height: min-content !important;
+                max-height: 400px;
+            }
+            .slick-track {
+                height: min-content !important;
+            }
+        }
+        .slick-dots {
+            position: relative;
+            min-width: 100px;
+            min-height: 20px;
+            margin-top: 1rem;
+            // margin: 2.5rem 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            // transform: scale(0.75);
+            li {
+                width: 20px;
+                height: 20px;
+                border: 1px solid $C4;
+                opacity: 0.5;
+                border-radius: 50px;
+                button {
+                    opacity: 0;
+                }
+                &:hover {
+                    border: none;
+                    background-color: $C4;
+                    opacity: 0.25;
+                    cursor: pointer;
+                }
+                &.slick-active {
+                    opacity: 1;
+                    background-color: $C4;
+                    &:hover {
+                        border: none;
+                        background-color: $C4;
+                        opacity: 0.75;
+                        cursor: default;
+                    }
+                }
+            }
+        }
+        .Slide {
+            position: relative;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 100vw;
+            .Comment {
+                min-width: 250px;
+                min-height: 250px;
+                max-width: 400px;
+                flex: 1;
+                background-color: #fff;
+                // box-shadow: 0px 21px 246px rgba(0, 0, 0, 0.07);
+                border-radius: 2rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                padding: 50px;
+                gap: 2rem;
+                @include GradientBorder($C3, $C4);
+                transition: all 200ms ease;
+                margin: 0 1rem;
+                // &:hover {
+                //     background-color: color.adjust($C5, $lightness: -2.5%);
+                //     color: $C2;
+                //     // transform: scale(1.010);
+                //     // transform: translateY(-0.5rem);
+                //     // @include AnimatedGradientBorder($C3, $C4);
+                //     .Button {
+                //         &:before {
+                //             width: 100%;
+                //         }
+                //         &:after {
+                //             width: 100%;
+                //         }
+                //     }
+                // }
+                @media (max-width: 890px) {
+                    padding: 2rem;
+                }
+                .Stars {
+                    min-width: 100px;
+                    min-height: 25px;
+                }
+                .Text {
+                    font-size: 0.85em;
+                }
+                .Person {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+                    padding: 0px;
+                    gap: 25px;
+                    .Picture {
+                        min-width: 3.5rem;
+                        min-height: 3.5rem;
+                        // background: url(.png);
+                        position: relative;
+                        border-radius: 50px;
+                        overflow: hidden;
+                        aspect-ratio: 1/1;
+                        .InnerImage {
+                            position: absolute;
+                            width: 55% !important;
+                            height: 55% !important;
+                            min-width: 20px !important;
+                            min-height: 20px !important;
+                        }
+                    }
+                    .Name {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: center;
+                        padding: 0px;
+                        gap: 0.5rem;
+                        .FullName {
+                            font-weight: 600;
+                            font-size: 1rem;
+                            /* identical to box height */
+                            text-transform: capitalize;
+                        }
+                        .Profession {
+                            font-weight: 400;
+                            font-size: 0.8rem;
+                            /* identical to box height */
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.DevelopmentPage {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // &::before {
+    //     content: "";
+    //     display: block;
+    //     position: fixed;
+    //     width: 100vw;
+    //     height: 100vh;
+    //     background: #000;
+    //     top: 0;
+    //     left: 0;
+    //     z-index: -1;
+    // }
+    // Page ScrollBar
+    &::-webkit-scrollbar {
+        appearance: none;
+    }
+    .PageContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        @import "./imports/title";
+        @import "./imports/TechnologyStack";
+        @import "./../design/imports/Projects";
+        @import "./../design/imports/Secret";
+        @import "./../design/imports/LetsTalk";
+        .SelectedProjects {
+            background-color: #161617;
+            background-image: none;
+            position: relative;
+        }
+        .QualitiesGrid {
+            background-color: #161617;
+            background-image: none;
+        }
+        .LetsTalk {
+            position: relative;
+            .Title {
+                color: #fff;
+                p {
+                    color: #fff;
+                    opacity: 50%;
+                }
+            }
+        }
+        .FAQ {
+            @include FAQ("Dark");
+        }
+    }
+}

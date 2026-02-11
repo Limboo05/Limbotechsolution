@@ -1,0 +1,26 @@
+.ContactPage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+    @import "./imports/0- Background.scss";
+    overflow-x: hidden;
+    overflow-y: auto;
+    // background-color: black;
+    .PageContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+        @import "./imports/1- Alternatives.scss";
+        @import "./imports/2- Get in touch.scss";
+        @import "./imports/3- FAQ.scss";
+        @import "./imports/4- Mailing.scss";
+        z-index: 10;
+    }
+}

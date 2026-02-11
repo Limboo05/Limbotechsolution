@@ -1,0 +1,16 @@
+.Banner {
+    width: 80%;
+    height: auto;
+    padding: 0 0;
+    background: transparent;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+    color: $C1;
+    h1 {
+        font-size: 2rem;
+        &:not(:last-child) {
+            margin-bottom: 5rem;
+        }
+    }
+}

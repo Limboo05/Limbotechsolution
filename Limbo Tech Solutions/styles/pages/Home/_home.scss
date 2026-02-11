@@ -1,0 +1,31 @@
+.HomePage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 100vw;
+    //
+    // Home Page Content (Sections and more...)*
+    @import "./content/1- Landing Section";
+    @import "./content/2- Trusted Partners";
+    @import "./content/3- About us";
+    @import "./content/4- Business Performance";
+    @import "./content/5- Services";
+    @import "./content/6- Portfolio";
+    @import "./content/7- Testimonials";
+    @import "./content/8- Let's Talk";
+    @import "./content/9- Mailing";
+    .Section {
+        &__1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: stretch;
+            min-height: 100vh;
+        }
+    }
+}
