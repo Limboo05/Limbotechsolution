@@ -3,9 +3,9 @@ import { NextRequest, NextResponse } from 'next/server'
 const PUBLIC_FILE = /\.(.*)$/
 
 export function middleware(req: NextRequest) {
-  const { pathname, locale } = req.nextUrl
+  const { pathname } = req.nextUrl
 
-  // 1. Skip internal files and API routes
+  // 1. Skip internal files and static assets
   if (
     pathname.startsWith('/_next') ||
     pathname.includes('/api/') ||
@@ -14,15 +14,7 @@ export function middleware(req: NextRequest) {
     return NextResponse.next()
   }
 
-  // 2. Handle the 'default' locale redirect
-  if (locale === 'default') {
-    // Construct the new URL for the 'en' locale
-    const url = req.nextUrl.clone()
-    url.pathname = `/en${pathname}`
-    
-    // Important: remove the 'default' locale from the redirect to prevent loops
-    return NextResponse.redirect(url)
-  }
-
+  // 2. Just return next() and let Next.js i18n handle the rest
+  // Next.js will automatically serve 'en' content at the root '/'
   return NextResponse.next()
 }
