@@ -253,16 +253,7 @@ export default function MobileMenu(props: any) {
             locale: "en",
             flag: US,
         },
-        {
-            name: "العربية",
-            locale: "ar",
-            flag: MA,
-        },
-        {
-            name: "Français",
-            locale: "fr",
-            flag: FR,
-        },
+       
     ];
 
     const initial = { opacity: 0 };
