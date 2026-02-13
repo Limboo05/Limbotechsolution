@@ -54,71 +54,71 @@
             }
         },
         "content": {
-            "LandingSection": {
-                "title": "We <BlueSpan>Design</BlueSpan>, We <RedSpan>Create</RedSpan>. We Are Digital Agency.",
-                "description": "Our creative team is focused on stunning and results driven solutions for small to medium businesses all over the world.",
-                "buttons": {
-                    "primary": "Get a quote",
-                    "secondary": "Learn More"
-                }
-            },
+        "LandingSection": {
+            "title": "We <BlueSpan>Build</BlueSpan> Digital Experiences That <RedSpan>Matter</RedSpan>.",
+            "description": "We help startups and businesses scale with stunning design, robust development, and data-driven marketing.",
+            "buttons": {
+                "primary": "Start a Project",
+                "secondary": "View Portfolio"
+            }
+        },
             "TrustedPartners": {
                 "title": "Our Trusted Partners"
             },
-            "AboutUs": {
-                "title": "We are <BlueSpan>Experts</BlueSpan> in our field<BlueDot>.</BlueDot>",
-                "description": "As experts, our team at Limbo Tech Solutions is committed to helping businesses achieve their online marketing goals. With years of experience and a passion for staying up-to-date with the latest industry trends and techniques, we provide customized strategies tailored to each client's unique needs. We pride ourselves on exceptional customer service and delivering measurable results that help our clients succeed. Contact us today to learn more about how we can help your business grow.",
-                "button": "Contact us"
-            },
-            "BusinessPerformance": {
-                "title": "We Can Improve <RedSpan>Your Business Performance</RedSpan> And Gain More Customers<RedDot>.</RedDot>",
-                "description": "Our goal is to help small and medium businesses achieve their maximum potential. We have a creative and experienced team who provide stunning and result-driven solutions. Our team works closely with our clients to understand their needs and provide customized services to help them grow and succeed in their industry.",
-                "cards": {
-                    "reach": {
-                        "title": "Reach More Customers",
-                        "description": "Boost your business with our expert social media, email, and SEO strategies. Contact us to learn more and take your business to new heights."
-                    },
-                    "cost": {
-                        "title": "Cost Effective",
-                        "description": "Looking for cost-effective ways to expand your customer base? Our team can help! Contact us to learn more."
-                    },
-                    "services": {
-                        "title": "Customized Services",
-                        "description": "Our team delivers customized solutions for your unique needs. From branding to digital marketing, we provide personalized expertise. Let us help bring your vision to life. Contact us today to discuss your project."
-                    },
-                    "professionals": {
-                        "title": "Trained Professionals",
-                        "description": "Our team consists of trained professionals who are experts in their respective fields, ensuring that you receive top-notch service and high-quality results."
-                    }
+             "AboutUs": {
+            "title": "More Than Just an Agency, We Are Your <BlueSpan>Tech Partner</BlueSpan><BlueDot>.</BlueDot>",
+            "description": "At Limbo Tech Solutions, we bridge the gap between creativity and technology. We don't just build websites; we build digital assets that drive growth. Our team combines technical expertise with market insight to deliver solutions that are not only beautiful but functional and scalable.",
+            "button": "Learn more"
+        },
+        "BusinessPerformance": {
+            "title": "Transforming Your Ideas Into <RedSpan>Business Reality</RedSpan><RedDot>.</RedDot>",
+            "description": "We combine strategy, design, and technology to help you succeed in the digital landscape.",
+            "cards": {
+                "reach": {
+                    "title": "Expand Your Reach",
+                    "description": "Get found by the right customers. Our SEO and marketing strategies put your brand in front of the audience that matters."
+                },
+                "cost": {
+                    "title": "Cost-Efficient Solutions",
+                    "description": "High quality doesn't mean high cost. We optimize our workflows to deliver premium results within your budget."
+                },
+                "services": {
+                    "title": "Tailored Strategies",
+                    "description": "No cookie-cutter templates. We analyze your unique challenges to build custom solutions that fit your specific goals."
+                },
+                "professionals": {
+                    "title": "Expert Team",
+                    "description": "From developers to designers, our team stays ahead of industry trends to ensure your project is built for the future."
                 }
-            },
+            }
+        },
             "Services": {
-                "title": "We Do <BlueSpan>Everything</BlueSpan>",
-                "description": "We work hard to provide the best quality for you and we never choose easy and faster ways to quickly break up with your project.",
-                "cards": {
-                    "programming": {
-                        "title": "Design and programming of websites and applications",
-                        "description": "This is with the highest quality in terms of design, coding and various aspects of the site, which provides our customers with modification in the future, as we take into account all the options that the customer may need so that he does not have to design the site again, which may cost money and time"
-                    },
-                    "design": {
-                        "title": "Graphic design and print",
-                        "description": "Design is part of our core personality. We develop new ideas from scratch based on available materials and information provided. We also provide customized solutions to reach our marketing goals. Through design we create the optimal communication picture that will work perfectly for the benefit of your business."
-                    },
-                    "advertising": {
-                        "title": "Advertising campaigns",
-                        "description": "Advertising campaigns improve the reach of a company's website or social media accounts, but they require a lot of experience and good planning to ensure good results."
-                    },
-                    "marketing": {
-                        "title": "E-Marketing",
-                        "description": "We market events and events through all websites and electronic platforms and ensure that the public is informed and attended"
-                    },
-                    "business": {
-                        "title": "Building a business identity",
-                        "description": "The brand identity has become the biggest strategy that generates millions of dollars for entrepreneurs, so it was necessary for the Limbo Tech Solutions team to rely on all the foundations in their work to build a harmonious brand identity for clients"
-                    },
+            "title": "End-to-End <BlueSpan>Digital Services</BlueSpan>",
+            "description": "From the first sketch to the final launch, we handle every aspect of your digital presence.",
+            "cards": {
+                "programming": {
+                    "title": "Web & App Development",
+                    "description": "We build fast, secure, and scalable web applications using modern technologies like React and Next.js."
+                },
+                "design": {
+                    "title": "UI/UX & Graphic Design",
+                    "description": "We create user-centric interfaces that look amazing and convert visitors into loyal customers."
+                },
+                "advertising": {
+                    "title": "Paid Advertising (PPC)",
+                    "description": "Maximize your ROI with targeted ad campaigns on Google and social media platforms."
+                },
+                "marketing": {
+                    "title": "Digital Marketing & SEO",
+                    "description": "Grow your organic traffic and build a brand presence that dominates your industry."
+                },
+                "business": {
+                    "title": "Brand Identity",
+                    "description": "Define your voice. We create logos, guidelines, and visual identities that make your business memorable."
+                },
                     "visual": {
-                        "title": "visual production",
-                        "description": "We have a creative team in the fields of writing, directing and editing to provide you with high services, using the latest technical technologies and innovative ideas to produce works that can remain in the public's memory for as long as possible."
+                    "title": "Video & Motion Graphics",
+                    "description": "Engage your audience with high-quality video production and creative storytelling."
                     }
                 },
                 "more": "Find out more"
@@ -205,44 +205,26 @@
         },
         "design": {
             "head": {
-                "title": "Limbo Tech Solutions - Development Services",
+                "title": "Limbo Tech Solutions - Design Services",
                 "meta": {
-                    "description": "Limbo Tech Solutions - Digital Agency"
+                    "description": "Professional UI/UX and Branding Services"
                 }
             },
             "content": {
                 "Card": {
-                    "title": "Design for people",
-                    "description": "Our creative design solutions are for people, not for machines. Yet made by people and machines.",
+                    "title": "Design That Converts",
+                "description": "Great design isn't just about looking good—it's about solving problems. We create interfaces that users love to interact with.",
                     "button": "Read more",
-                    "notice": "No business has ever succeeded with poor design solutions. To us, design is the nucleus that holds business together. We’re always willing to help you build it."
+                    "notice": "Your brand is the face of your business. We ensure it leaves a lasting impression."
                 },
                 "Services": {
-                    "branding": {
-                        "title": "Branding",
-                        "description": "Establish your unique identity and stand out."
-                    },
-                    "logoDesign": {
-                        "title": "Logo Design",
-                        "description": "Make a lasting impression with a custom logo."
-                    },
-                    "uiUx": {
-                        "title": "UI/UX",
-                        "description": "Enhance user experience and make a statement."
-                    },
-                    "socialMedia": {
-                        "title": "Social Media",
-                        "description": "Boost your online presence and engage followers."
-                    },
-                    "visualProduction": {
-                        "title": "Visual Production",
-                        "description": "Communicate your message visually and effectively."
-                    },
-                    "packaging": {
-                        "title": "Packaging",
-                        "description": "Elevate your product with eye-catching packaging."
-                    }
-                },
+                "branding": { "title": "Brand Strategy", "description": "Define your mission, vision, and visual identity." },
+                "logoDesign": { "title": "Logo Design", "description": "Unique marks that represent your business values." },
+                "uiUx": { "title": "UI/UX Design", "description": "Intuitive interfaces for web and mobile apps." },
+                "socialMedia": { "title": "Social Creatives", "description": "Engaging visuals for your social channels." },
+                "visualProduction": { "title": "Motion Design", "description": "Animations and videos that tell your story." },
+                "packaging": { "title": "Packaging Design", "description": "Product packaging that stands out on the shelf." }
+            },
                 "Notice": "No business has ever succeeded with poor design solutions. To us, design is the nucleus that holds business together. We’re always willing to help you build it.",
                 "Secret": {
                     "title": "What's our secret?",
@@ -274,27 +256,27 @@
                     }
                 },
                 "WorkingProcess": {
-                    "title": "Working Process",
+                    "title": "Our Design Process",
                     "process": {
                         "0": {
-                            "title": "Immersion",
-                            "description": "Going deep into client’s business to understand its core sense, goals and challenges to build partnership."
+                            "title": "Discovery",
+                            "description": "Understanding your business goals and user needs."
                         },
                         "1": {
-                            "title": "Ideation",
-                            "description": "Creating first concepts of a future product and shaping up the direction."
+                            "title": "Concept",
+                            "description": "Sketching ideas and creating mood boards."
                         },
                         "2": {
-                            "title": "Wireframing",
-                            "description": "Building the foundation, structure and core elements of a digital product."
+                            "title": "Design",
+                            "description": "Crafting high-fidelity mockups and prototypes."
                         },
                         "3": {
-                            "title": "Visual Design",
-                            "description": "Adding colors, illustrations and shapes to create visual language that resonates with customers."
+                            "title": "Revision",
+                            "description": "Refining details based on your feedback."
                         },
                         "4": {
-                            "title": "Handoff & Support",
-                            "description": "Sending all finalised deliverables and providing further support."
+                            "title": "Delivery",
+                            "description": "Handing over all assets and source files."
                         }
                     }
                 },
@@ -341,8 +323,8 @@
                     "title": "FAQ",
                     "questions": {
                         "0": {
-                            "question": "How long does it take to get started?",
-                            "answer": "Our turnaround is lightning-fast. Just one week from signing off and we’re there with the kick-off meeting to get it rolling."
+                            "question": "What do I need to provide to get started?",
+                        "answer": "Just your idea! We can start from scratch or work with your existing brand guidelines. We'll guide you through a brief to understand your needs."
                         },
                         "1": {
                             "question": "What is your typical working process?",
@@ -377,8 +359,8 @@
                             "answer": "Wireframes help to build UX without distractions. The wireframe is an essential part of the design process and we would not recommend eliminating it. Having everything polished at the wireframing stage, we can avoid many amendments and revisions at the design stage, which saves both time and money."
                         },
                         "9": {
-                            "question": "What templates does Outcrowd use to create design?",
-                            "answer": "We don’t use pre-built templates or kits because there’s just no soul in them. We’re committed to building fully customized and product-based solutions that will meet the expectations of the target users. Each pixel and line is designed with love and passion by our creative minds."
+                            "question": "How many design revisions do I get?",
+                        "answer": "We typically offer 3 rounds of revisions to ensure you are 100% happy with the final result."
                         },
                         "10": {
                             "question": "Where should I start with my business if I have an idea?",
@@ -415,8 +397,8 @@
             },
             "content": {
                 "Title": {
-                    "title": "Development",
-                    "description": "Making your product come alive"
+                    "title": "Custom Web Development",
+                    "description": "Turning design into functional, high-performance reality."
                 },
                 "Potential": {
                     "title": "Unleashing Your Potential",
@@ -427,8 +409,8 @@
                     "description": "We’ve had years of experience and developed dozens of projects. So we know what to do to achieve results that will make our clients proud."
                 },
                 "TechnologyStack": {
-                    "title": "Technology Stack",
-                    "description": "Building and transforming digital products with a range of technologies.",
+                    "title": "Our Tech Stack",
+                    "description": "Building and transforming digital products with a range of technologies [React / Next.js, Node.js, MongoDB, AWS / Vercel].",
                     "button": "Read More"
                 },
                 "Cases": {
@@ -442,15 +424,15 @@
                     }
                 },
                 "WhyUs": {
-                    "title": "Why us?",
+                    "title": "Why Choose Our Development Team?",
                     "cards": {
                         "BusinessCenteredApproach": {
-                            "title": "Business-centered approach",
-                            "description": "Everything we do is geared toward your strategic goals. Essentially, our designs are an effective way to make your business successful."
+                            "title": "Clean Code",
+                            "description": "We write maintainable, scalable code that is easy to update." 
                         },
                         "StrongMarketingTools": {
-                            "title": "Strong marketing tools",
-                            "description": "Marketing and design are inextricably linked. We know just how to make them complement each other."
+                            "title": "Optimized Speed", 
+                            "description": "We prioritize load times and SEO performance for better rankings."
                         },
                         "CloseCommunication": {
                             "title": "Close communication",
@@ -461,8 +443,8 @@
                             "description": "We hate falling behind on a project just as much as our clients. That’s why we never do it."
                         },
                         "FutureProofResults": {
-                            "title": "Future-proof results",
-                            "description": "Fads are fine, but some things are timeless. We make every effort to stay on the cutting edge of design."
+                            "title": "Secure & Stable",
+                            "description": "Built with best practices to protect your data and users."
                         },
                         "IncreasingValue": {
                             "title": "Exceeding Expectations",
@@ -530,8 +512,8 @@
             },
             "content": {
                 "Card": {
-                    "title": "Digital Marketing",
-                    "description": "Make your business grow and solve your problem.",
+                    "title": "Data-Driven Marketing",
+                "description": "Stop guessing. Start growing with strategies that deliver measurable ROI.",
                     "button": "Read more",
                     "notice": "Marketing has always been about relationships. About trust and personalised service. And about human connection. In a world that feels unpredictable and uncertain, and where you have more conversations with AI than with people, Limbo Tech Solutions is a shift towards human-driven marketing."
                 },
@@ -608,8 +590,8 @@
                     "title": "FAQ",
                     "questions": {
                         "0": {
-                            "question": "How long does it take to get started?",
-                            "answer": "Our turnaround is lightning-fast. Just one week from signing off and we’re there with the kick-off meeting to get it rolling."
+                             "question": "How long does a typical website take to build?",
+                        "answer": "A standard business website takes 2-4 weeks. Complex web applications can take 2-3 months depending on features."
                         },
                         "1": {
                             "question": "What is your typical working process?",
@@ -644,8 +626,8 @@
                             "answer": "Wireframes help to build UX without distractions. The wireframe is an essential part of the design process and we would not recommend eliminating it. Having everything polished at the wireframing stage, we can avoid many amendments and revisions at the design stage, which saves both time and money."
                         },
                         "9": {
-                            "question": "What templates does Outcrowd use to create design?",
-                            "answer": "We don’t use pre-built templates or kits because there’s just no soul in them. We’re committed to building fully customized and product-based solutions that will meet the expectations of the target users. Each pixel and line is designed with love and passion by our creative minds."
+                            "question": "Do you provide website maintenance?",
+                        "answer": "Yes! We offer monthly maintenance packages to keep your site secure, backed up, and updated."
                         },
                         "10": {
                             "question": "Where should I start with my business if I have an idea?",
