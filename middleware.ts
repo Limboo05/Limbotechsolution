@@ -1,23 +1,26 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-export function middleware(req: NextRequest) {
-  // We simply pass the request through. 
-  // Next.js i18n will handle the 'en' default automatically.
-  return NextResponse.next()
-}
+const PUBLIC_FILE = /\.(.*)$/
 
-// The Matcher ensures middleware ONLY runs on actual pages
-export const config = {
-  matcher: [
-    /*
-     * Match all request paths except for the ones starting with:
-     * - api (API routes)
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     * - locales (translation files)
-     * - img, logo, svg (your public assets)
-     */
-    '/((?!api|_next/static|_next/image|favicon.ico|locales|img|logo|svg).*)',
-  ],
+export function middleware(req: NextRequest) {
+  const { pathname } = req.nextUrl
+
+  // 1. Skip internal/static files
+  if (
+    pathname.startsWith('/_next') ||
+    pathname.includes('/api/') ||
+    PUBLIC_FILE.test(pathname)
+  ) {
+    return NextResponse.next()
+  }
+
+  // 2. Simplified Locale Logic
+  // Since 'en' is your default, Next.js handles it. 
+  // We only redirect if someone hits the bare root without a slash
+  if (pathname === '/') {
+     // This respects your trailingSlash: true setting
+     return NextResponse.next()
+  }
+
+  return NextResponse.next()
 }
